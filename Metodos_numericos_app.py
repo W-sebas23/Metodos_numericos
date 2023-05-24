@@ -25,7 +25,8 @@ transformations = (standard_transformations +
 
 st.set_page_config(page_title="Calculadoras",
                    page_icon=":pencil:", layout="wide")
-st.sidebar.image(".\images\mmu.png", use_column_width=True)
+st.sidebar.image("images/mmu.png", use_column_width=True)
+
 menu = ["Biseccion",
         "Simpson 1/3",
         "Expresiones",
